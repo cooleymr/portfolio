@@ -67,7 +67,7 @@
 		/* Increases div width until it matches the parnent div's width */
 		function move(element){
 			var width = 0;	//Starting bar width
-			var id = setInterval(frame, 10);
+			var id = setInterval(frame, 15);
 			function frame(){
 				if (width >= 100){
 					clearInterval(id);

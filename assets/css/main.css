@@ -2521,6 +2521,7 @@ input, select, textarea {
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
+	a[type = "href"],
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2648,7 +2649,8 @@ input, select, textarea {
 				background-color: #39c29d;
 			}
 
-		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="submit"].disabled, 
+		input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
